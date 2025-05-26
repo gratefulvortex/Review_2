@@ -1,30 +1,218 @@
-2025-05-09 19:16:13,583 - INFO - Starting review scraping...
-2025-05-09 19:16:22,720 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
-2025-05-09 19:16:30,337 - INFO - Accepted cookies
-2025-05-09 19:16:31,358 - INFO - Waiting for reviews to load...
-2025-05-09 19:16:31,386 - INFO - Review elements found
-2025-05-09 19:16:34,738 - INFO - Extracted exact date for review 0: 2025-04-17
-2025-05-09 19:16:35,086 - INFO - Extracted exact date for review 1: 2025-04-13
-2025-05-09 19:16:35,438 - INFO - Extracted exact date for review 2: 2025-04-11
-2025-05-09 19:16:35,786 - INFO - Extracted exact date for review 3: 2025-03-20
-2025-05-09 19:16:36,149 - INFO - Extracted exact date for review 4: 2025-03-12
-2025-05-09 19:16:36,503 - INFO - Extracted exact date for review 5: 2025-01-15
-2025-05-09 19:16:36,867 - INFO - Extracted exact date for review 6: 2024-12-30
-2025-05-09 19:16:37,237 - INFO - Extracted exact date for review 7: 2024-12-05
-2025-05-09 19:16:37,618 - INFO - Extracted exact date for review 8: 2024-12-03
-2025-05-09 19:16:37,955 - INFO - Extracted exact date for review 9: 2024-10-31
-2025-05-09 19:16:38,019 - INFO - Added 10 reviews (Total: 10)
-2025-05-09 19:16:38,203 - INFO - Clicked 'Load More'
-2025-05-09 19:16:46,604 - INFO - Extracted exact date for review 10: 2024-10-14
-2025-05-09 19:16:46,952 - INFO - Extracted exact date for review 11: 2024-10-07
-2025-05-09 19:16:47,319 - INFO - Extracted exact date for review 12: 2024-10-05
-2025-05-09 19:16:47,679 - INFO - Extracted exact date for review 13: 2024-09-23
-2025-05-09 19:16:48,038 - INFO - Extracted exact date for review 14: 2024-09-12
-2025-05-09 19:16:48,393 - INFO - Extracted exact date for review 15: 2024-09-06
-2025-05-09 19:16:48,765 - INFO - Extracted exact date for review 16: 2024-09-04
-2025-05-09 19:16:49,114 - INFO - Extracted exact date for review 17: 2024-08-22
-2025-05-09 19:16:49,436 - WARNING - Skipping review 18 due to error: ElementHandle.query_selector: Target page, context or browser has been closed
-2025-05-09 19:16:49,521 - WARNING - Skipping review 19 due to error: ElementHandle.inner_text: Target page, context or browser has been closed
-2025-05-09 19:16:49,522 - INFO - Added 8 reviews (Total: 18)
-2025-05-09 19:16:49,617 - WARNING - Error loading more: Page.query_selector: Target page, context or browser has been closed
-2025-05-09 19:16:50,121 - INFO - Saved 18 reviews to C:\Users\windows\Downloads\review\scraped_reviews\aveeno_reviews_20250509_191650.csv
+2025-05-09 19:35:25,692 - INFO - Loading product page: https://www.amazon.in/product-reviews/B07L1SP25K/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews  
+2025-05-09 19:35:27,222 - INFO - Please login manually in the browser window
+2025-05-09 19:35:37,367 - INFO - Success: Login successful, saving session...
+2025-05-09 19:35:41,388 - INFO - Waiting for reviews to load...
+2025-05-09 19:36:01,442 - INFO - Success: Found reviews using xpath: //div[contains(@class, 'review')]
+2025-05-09 19:36:01,473 - INFO - Total reviews reported: N/A
+2025-05-09 19:36:01,474 - INFO - Loading reviews for filter: All (https://www.amazon.in/product-reviews/B07L1SP25K/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews  &pageNumber=1)
+2025-05-09 19:36:05,685 - INFO - Processing page 1 for filter All
+2025-05-09 19:36:26,271 - INFO - Found 10 reviews using xpath: //div[contains(@id, 'customer_review-')]
+2025-05-09 19:36:26,393 - INFO - Collected review: ... (Rating: 5.0 out of 5 stars)
+2025-05-09 19:36:26,488 - INFO - Collected review: ... (Rating: 4.0 out of 5 stars)
+2025-05-09 19:36:26,574 - INFO - Collected review: ... (Rating: 5.0 out of 5 stars)
+2025-05-09 19:36:26,669 - INFO - Collected review: ... (Rating: 3.0 out of 5 stars)
+2025-05-09 19:36:26,759 - INFO - Collected review: ... (Rating: 5.0 out of 5 stars)
+2025-05-09 19:36:26,847 - INFO - Collected review: ... (Rating: 4.0 out of 5 stars)
+2025-05-09 19:36:26,936 - INFO - Collected review: ... (Rating: 5.0 out of 5 stars)
+2025-05-09 19:36:27,026 - INFO - Collected review: ... (Rating: 5.0 out of 5 stars)
+2025-05-09 19:36:27,120 - INFO - Collected review: ... (Rating: 4.0 out of 5 stars)
+2025-05-09 19:36:27,203 - INFO - Collected review: ... (Rating: 5.0 out of 5 stars)
+2025-05-09 19:36:27,207 - INFO - Incremental save: 10 new reviews, total 10 reviews to amazon_reviews_20250509_193523.csv
+2025-05-09 19:36:27,240 - INFO - Found next page button with selector: li.a-last a
+2025-05-09 19:36:27,240 - INFO - Navigating to next page...
+2025-05-09 19:36:38,342 - INFO - Loading reviews for filter: All (https://www.amazon.in/product-reviews/B07L1SP25K/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews  &pageNumber=2)
+2025-05-09 19:36:38,348 - ERROR - Critical error: Page.goto: Target page, context or browser has been closed
+2025-05-09 19:36:38,352 - ERROR - Could not take screenshot
+2025-05-11 21:09:23,535 - INFO - Starting review scraping...
+2025-05-11 21:09:41,125 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/dove-body-lotion-for-sensitive-skin/reviews
+2025-05-11 21:09:47,747 - INFO - Accepted cookies
+2025-05-11 21:09:48,774 - INFO - Waiting for reviews to load...
+2025-05-11 21:09:48,793 - INFO - Review elements found
+2025-05-11 21:09:52,095 - INFO - Extracted exact date for review 0: 2025-04-17
+2025-05-11 21:09:52,389 - INFO - Extracted exact date for review 1: 2025-04-13
+2025-05-11 21:09:52,703 - INFO - Extracted exact date for review 2: 2025-04-11
+2025-05-11 21:09:53,057 - INFO - Extracted exact date for review 3: 2025-03-20
+2025-05-11 21:09:53,371 - INFO - Extracted exact date for review 4: 2025-03-12
+2025-05-11 21:09:53,688 - INFO - Extracted exact date for review 5: 2025-01-15
+2025-05-11 21:09:54,022 - INFO - Extracted exact date for review 6: 2024-12-30
+2025-05-11 21:09:54,337 - INFO - Extracted exact date for review 7: 2024-12-05
+2025-05-11 21:09:54,730 - INFO - Extracted exact date for review 8: 2024-12-03
+2025-05-11 21:09:55,057 - INFO - Extracted exact date for review 9: 2024-10-31
+2025-05-11 21:09:55,112 - INFO - Added 10 reviews (Total: 10)
+2025-05-11 21:09:55,312 - INFO - Clicked 'Load More'
+2025-05-11 21:10:02,310 - INFO - Extracted exact date for review 10: 2024-10-14
+2025-05-11 21:10:02,628 - INFO - Extracted exact date for review 11: 2024-10-07
+2025-05-11 21:10:02,945 - INFO - Extracted exact date for review 12: 2024-10-05
+2025-05-11 21:10:03,279 - INFO - Extracted exact date for review 13: 2024-09-23
+2025-05-11 21:10:03,587 - INFO - Extracted exact date for review 14: 2024-09-12
+2025-05-11 21:10:03,891 - INFO - Extracted exact date for review 15: 2024-09-06
+2025-05-11 21:10:04,192 - INFO - Extracted exact date for review 16: 2024-09-04
+2025-05-11 21:10:04,511 - INFO - Extracted exact date for review 17: 2024-08-22
+2025-05-11 21:10:04,823 - INFO - Extracted exact date for review 18: 2024-07-07
+2025-05-11 21:10:05,137 - INFO - Extracted exact date for review 19: 2024-06-18
+2025-05-11 21:10:05,183 - INFO - Added 10 reviews (Total: 20)
+2025-05-11 21:10:05,408 - INFO - Clicked 'Load More'
+2025-05-11 21:10:13,832 - INFO - Extracted exact date for review 20: 2024-05-02
+2025-05-11 21:10:14,181 - INFO - Extracted exact date for review 21: 2024-04-25
+2025-05-11 21:10:14,588 - INFO - Extracted exact date for review 22: 2024-04-24
+2025-05-11 21:10:15,237 - INFO - Extracted exact date for review 23: 2024-04-15
+2025-05-11 21:10:15,988 - INFO - Extracted exact date for review 24: 2024-04-11
+2025-05-11 21:10:16,522 - INFO - Extracted exact date for review 25: 2024-02-29
+2025-05-11 21:10:16,970 - INFO - Extracted exact date for review 26: 2024-02-22
+2025-05-11 21:10:17,388 - INFO - Extracted exact date for review 27: 2024-02-02
+2025-05-11 21:10:17,817 - INFO - Extracted exact date for review 28: 2024-01-26
+2025-05-11 21:10:18,237 - INFO - Extracted exact date for review 29: 2024-01-26
+2025-05-11 21:10:18,366 - INFO - Added 10 reviews (Total: 30)
+2025-05-11 21:10:18,944 - INFO - Clicked 'Load More'
+2025-05-11 21:10:26,934 - INFO - Extracted exact date for review 30: 2024-01-22
+2025-05-11 21:10:27,261 - INFO - Extracted exact date for review 31: 2024-01-05
+2025-05-11 21:10:27,592 - INFO - Extracted exact date for review 32: 2023-12-17
+2025-05-11 21:10:27,906 - INFO - Extracted exact date for review 33: 2023-12-01
+2025-05-11 21:10:28,200 - INFO - Extracted exact date for review 34: 2023-11-20
+2025-05-11 21:10:28,539 - INFO - Extracted exact date for review 35: 2023-11-16
+2025-05-11 21:10:28,883 - INFO - Extracted exact date for review 36: 2023-11-16
+2025-05-11 21:10:29,203 - INFO - Extracted exact date for review 37: 2023-11-09
+2025-05-11 21:10:29,520 - INFO - Extracted exact date for review 38: 2023-11-05
+2025-05-11 21:10:29,834 - INFO - Extracted exact date for review 39: 2023-10-28
+2025-05-11 21:10:29,882 - INFO - Added 10 reviews (Total: 40)
+2025-05-11 21:10:30,294 - INFO - Clicked 'Load More'
+2025-05-11 21:10:38,798 - INFO - Extracted exact date for review 40: 2023-10-14
+2025-05-11 21:10:39,144 - INFO - Extracted exact date for review 41: 2023-10-02
+2025-05-11 21:10:39,522 - INFO - Extracted exact date for review 42: 2023-09-08
+2025-05-11 21:10:39,854 - INFO - Extracted exact date for review 43: 2023-08-21
+2025-05-11 21:10:40,157 - INFO - Extracted exact date for review 44: 2023-08-13
+2025-05-11 21:10:40,482 - INFO - Extracted exact date for review 45: 2023-07-27
+2025-05-11 21:10:40,811 - INFO - Extracted exact date for review 46: 2023-07-11
+2025-05-11 21:10:41,130 - INFO - Extracted exact date for review 47: 2023-07-03
+2025-05-11 21:10:41,444 - INFO - Extracted exact date for review 48: 2023-06-30
+2025-05-11 21:10:41,819 - INFO - Extracted exact date for review 49: 2023-06-24
+2025-05-11 21:10:41,959 - INFO - Added 10 reviews (Total: 50)
+2025-05-11 21:10:42,402 - INFO - Clicked 'Load More'
+2025-05-11 21:10:49,754 - INFO - Extracted exact date for review 50: 2023-06-09
+2025-05-11 21:10:50,061 - INFO - Extracted exact date for review 51: 2023-05-05
+2025-05-11 21:10:50,395 - INFO - Extracted exact date for review 52: 2023-05-04
+2025-05-11 21:10:50,769 - INFO - Extracted exact date for review 53: 2023-04-27
+2025-05-11 21:10:51,092 - INFO - Extracted exact date for review 54: 2023-04-22
+2025-05-11 21:10:51,498 - INFO - Extracted exact date for review 55: 2023-04-16
+2025-05-11 21:10:51,823 - INFO - Extracted exact date for review 56: 2023-02-26
+2025-05-11 21:10:52,140 - INFO - Extracted exact date for review 57: 2023-02-11
+2025-05-11 21:10:52,471 - INFO - Extracted exact date for review 58: 2023-02-11
+2025-05-11 21:10:52,794 - INFO - Extracted exact date for review 59: 2023-02-10
+2025-05-11 21:10:52,846 - INFO - Added 10 reviews (Total: 60)
+2025-05-11 21:10:53,307 - INFO - Clicked 'Load More'
+2025-05-11 21:11:00,072 - INFO - Extracted exact date for review 60: 2023-02-01
+2025-05-11 21:11:00,380 - INFO - Extracted exact date for review 61: 2023-01-29
+2025-05-11 21:11:00,697 - INFO - Extracted exact date for review 62: 2023-01-25
+2025-05-11 21:11:01,040 - INFO - Extracted exact date for review 63: 2023-01-13
+2025-05-11 21:11:01,360 - INFO - Extracted exact date for review 64: 2023-01-09
+2025-05-11 21:11:01,801 - INFO - Extracted exact date for review 65: 2022-12-31
+2025-05-11 21:11:02,109 - INFO - Extracted exact date for review 66: 2022-12-31
+2025-05-11 21:11:02,424 - INFO - Extracted exact date for review 67: 2022-12-30
+2025-05-11 21:11:02,758 - INFO - Extracted exact date for review 68: 2022-12-29
+2025-05-11 21:11:03,084 - INFO - Extracted exact date for review 69: 2022-12-28
+2025-05-11 21:11:03,132 - INFO - Added 10 reviews (Total: 70)
+2025-05-11 21:11:03,769 - INFO - Clicked 'Load More'
+2025-05-11 21:11:12,434 - INFO - Extracted exact date for review 70: 2022-12-10
+2025-05-11 21:11:12,728 - INFO - Extracted exact date for review 71: 2022-11-15
+2025-05-11 21:11:13,044 - INFO - Extracted exact date for review 72: 2022-11-02
+2025-05-11 21:11:13,378 - INFO - Extracted exact date for review 73: 2022-10-24
+2025-05-11 21:11:13,728 - INFO - Extracted exact date for review 74: 2022-10-24
+2025-05-11 21:11:14,051 - INFO - Extracted exact date for review 75: 2022-10-15
+2025-05-11 21:11:14,379 - INFO - Extracted exact date for review 76: 2022-09-26
+2025-05-11 21:11:14,711 - INFO - Extracted exact date for review 77: 2022-09-15
+2025-05-11 21:11:15,041 - INFO - Extracted exact date for review 78: 2022-08-10
+2025-05-11 21:11:15,379 - INFO - Extracted exact date for review 79: 2022-08-07
+2025-05-11 21:11:15,432 - INFO - Added 10 reviews (Total: 80)
+2025-05-11 21:11:16,005 - INFO - Clicked 'Load More'
+2025-05-11 21:11:23,872 - INFO - Extracted exact date for review 80: 2022-07-25
+2025-05-11 21:11:24,219 - INFO - Extracted exact date for review 81: 2022-07-20
+2025-05-11 21:11:24,560 - INFO - Extracted exact date for review 82: 2022-07-12
+2025-05-11 21:11:24,901 - INFO - Extracted exact date for review 83: 2022-07-06
+2025-05-11 21:11:25,234 - INFO - Extracted exact date for review 84: 2022-07-04
+2025-05-11 21:11:25,581 - INFO - Extracted exact date for review 85: 2022-06-23
+2025-05-11 21:11:25,917 - INFO - Extracted exact date for review 86: 2022-05-19
+2025-05-11 21:11:26,260 - INFO - Extracted exact date for review 87: 2022-02-06
+2025-05-11 21:11:26,584 - INFO - Extracted exact date for review 88: 2022-01-06
+2025-05-11 21:11:26,941 - INFO - Extracted exact date for review 89: 2021-12-30
+2025-05-11 21:11:27,018 - INFO - Added 10 reviews (Total: 90)
+2025-05-11 21:11:27,740 - INFO - Clicked 'Load More'
+2025-05-11 21:11:31,728 - WARNING - Error loading more: Page.wait_for_selector: Target page, context or browser has been closed
+2025-05-11 21:11:32,545 - INFO - Saved 90 reviews to C:\Users\windows\Downloads\review\scraped_reviews\aveeno_reviews_20250511_211132.csv
+2025-05-14 06:55:07,114 - INFO - Starting review scraping...
+2025-05-14 06:55:19,518 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/lakme-insta-liner-water-resistant-eyeliner-9ml-pack-of-4-free-expedited-shipping/reviews
+2025-05-14 06:55:26,925 - INFO - Accepted cookies
+2025-05-14 06:55:27,940 - INFO - Waiting for reviews to load...
+2025-05-14 06:55:27,970 - INFO - Review elements found
+2025-05-14 06:55:31,331 - INFO - Extracted exact date for review 0: 2024-11-02
+2025-05-14 06:55:31,699 - INFO - Extracted exact date for review 1: 2024-01-23
+2025-05-14 06:55:32,039 - INFO - Extracted exact date for review 2: 2023-12-24
+2025-05-14 06:55:32,400 - INFO - Extracted exact date for review 3: 2023-07-02
+2025-05-14 06:55:32,762 - INFO - Extracted exact date for review 4: 2023-04-13
+2025-05-14 06:55:33,129 - INFO - Extracted exact date for review 5: 2023-02-10
+2025-05-14 06:55:33,493 - INFO - Extracted exact date for review 6: 2022-08-08
+2025-05-14 06:55:33,875 - INFO - Extracted exact date for review 7: 2022-07-05
+2025-05-14 06:55:34,227 - INFO - Extracted exact date for review 8: 2022-06-05
+2025-05-14 06:55:34,588 - INFO - Extracted exact date for review 9: 2022-05-05
+2025-05-14 06:55:34,659 - INFO - Added 10 reviews (Total: 10)
+2025-05-14 06:55:34,843 - INFO - Clicked 'Load More'
+2025-05-14 06:55:42,022 - INFO - Extracted exact date for review 10: 2022-05-02
+2025-05-14 06:55:42,365 - INFO - Extracted exact date for review 11: 2022-03-28
+2025-05-14 06:55:42,717 - INFO - Extracted exact date for review 12: 2022-03-28
+2025-05-14 06:55:43,065 - INFO - Extracted exact date for review 13: 2022-03-09
+2025-05-14 06:55:43,416 - INFO - Extracted exact date for review 14: 2022-03-05
+2025-05-14 06:55:43,752 - INFO - Extracted exact date for review 15: 2022-02-21
+2025-05-14 06:55:44,090 - INFO - Extracted exact date for review 16: 2022-02-09
+2025-05-14 06:55:44,448 - INFO - Extracted exact date for review 17: 2022-02-05
+2025-05-14 06:55:44,791 - INFO - Extracted exact date for review 18: 2022-02-05
+2025-05-14 06:55:45,142 - INFO - Extracted exact date for review 19: 2022-01-27
+2025-05-14 06:55:45,207 - INFO - Added 10 reviews (Total: 20)
+2025-05-14 06:55:45,452 - INFO - Clicked 'Load More'
+2025-05-14 06:55:52,772 - INFO - Extracted exact date for review 20: 2022-01-21
+2025-05-14 06:55:53,109 - INFO - Extracted exact date for review 21: 2022-01-15
+2025-05-14 06:55:53,434 - INFO - Extracted exact date for review 22: 2021-12-15
+2025-05-14 06:55:53,772 - INFO - Extracted exact date for review 23: 2021-12-09
+2025-05-14 06:55:54,132 - INFO - Extracted exact date for review 24: 2021-12-06
+2025-05-14 06:55:54,467 - INFO - Extracted exact date for review 25: 2021-11-15
+2025-05-14 06:55:54,839 - INFO - Extracted exact date for review 26: 2021-10-27
+2025-05-14 06:55:55,182 - INFO - Extracted exact date for review 27: 2021-10-21
+2025-05-14 06:55:55,599 - INFO - Extracted exact date for review 28: 2021-10-20
+2025-05-14 06:55:55,939 - INFO - Extracted exact date for review 29: 2021-10-16
+2025-05-14 06:55:55,996 - INFO - Added 10 reviews (Total: 30)
+2025-05-14 06:55:56,185 - INFO - Clicked 'Load More'
+2025-05-14 06:56:03,373 - INFO - Extracted exact date for review 30: 2021-10-07
+2025-05-14 06:56:03,718 - INFO - Extracted exact date for review 31: 2021-10-02
+2025-05-14 06:56:04,064 - INFO - Extracted exact date for review 32: 2021-10-01
+2025-05-14 06:56:04,401 - INFO - Extracted exact date for review 33: 2021-09-30
+2025-05-14 06:56:04,730 - INFO - Extracted exact date for review 34: 2021-09-27
+2025-05-14 06:56:05,073 - INFO - Extracted exact date for review 35: 2021-09-15
+2025-05-14 06:56:05,411 - INFO - Extracted exact date for review 36: 2021-09-10
+2025-05-14 06:56:05,759 - INFO - Extracted exact date for review 37: 2021-08-31
+2025-05-14 06:56:06,108 - INFO - Extracted exact date for review 38: 2021-08-28
+2025-05-14 06:56:06,444 - INFO - Extracted exact date for review 39: 2021-08-19
+2025-05-14 06:56:06,502 - INFO - Added 10 reviews (Total: 40)
+2025-05-14 06:56:06,701 - INFO - Clicked 'Load More'
+2025-05-14 06:56:14,937 - INFO - Extracted exact date for review 40: 2021-08-19
+2025-05-14 06:56:15,277 - INFO - Extracted exact date for review 41: 2021-08-08
+2025-05-14 06:56:15,626 - INFO - Extracted exact date for review 42: 2021-08-06
+2025-05-14 06:56:15,969 - INFO - Extracted exact date for review 43: 2021-08-02
+2025-05-14 06:56:16,304 - INFO - Extracted exact date for review 44: 2021-07-26
+2025-05-14 06:56:16,643 - INFO - Extracted exact date for review 45: 2021-07-26
+2025-05-14 06:56:16,966 - INFO - Extracted exact date for review 46: 2021-07-21
+2025-05-14 06:56:17,313 - INFO - Extracted exact date for review 47: 2021-07-17
+2025-05-14 06:56:17,651 - INFO - Extracted exact date for review 48: 2021-07-02
+2025-05-14 06:56:17,999 - INFO - Extracted exact date for review 49: 2021-06-26
+2025-05-14 06:56:18,058 - INFO - Added 10 reviews (Total: 50)
+2025-05-14 06:56:18,280 - INFO - Clicked 'Load More'
+2025-05-14 06:56:21,729 - WARNING - Error loading more: Page.wait_for_selector: Target page, context or browser has been closed
+2025-05-14 06:56:22,579 - INFO - Saved 50 reviews to C:\Users\windows\Downloads\review\scraped_reviews\aveeno_reviews_20250514_065622.csv
+2025-05-14 07:28:26,905 - INFO - Loading product page: https://www.amazon.in/product-reviews/B07L1SP25K/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews  
+2025-05-14 07:28:28,114 - INFO - Please login manually in the browser window
+2025-05-14 07:28:30,494 - ERROR - Critical error: Target page, context or browser has been closed
+=========================== logs ===========================
+waiting for navigation to "<function ImplToApiMapping.wrap_handler.<locals>.wrapper_func at 0x0000019967DB9580>" until 'load'
+============================================================
+2025-05-14 07:28:30,500 - ERROR - Could not take screenshot
+2025-05-17 10:41:28,085 - INFO - Starting review scraping...
+2025-05-17 10:41:43,369 - INFO - Navigating to reviews page: https://www.influenster.com/reviews/lakme-insta-liner-water-resistant-eyeliner-9ml-pack-of-4-free-expedited-shipping/reviews
+2025-05-17 10:41:50,352 - INFO - No cookie button found
+2025-05-17 10:41:50,357 - ERROR - Error during scraping: Page.query_selector: Target page, context or browser has been closed
